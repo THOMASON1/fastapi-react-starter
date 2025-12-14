@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+env/
+.pytest_cache/
+*.db
+
+# Javascript / Node
+node_modules/
+dist/
+build/
+.DS_Store
+package-lock.json
+# Keep package-lock if you want deterministic builds, but sometimes people ignore it in demos. 
+# Standard practice is to KEEP it. I will keep it but ignore 'dist'
+
+# IDEs
+.vscode/
+.idea/
