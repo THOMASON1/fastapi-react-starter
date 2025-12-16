@@ -30,7 +30,7 @@ graph LR
     User[React Frontend] -- REST JSON --> FastAPI[FastAPI Backend]
     
     subgraph Backend
-        FastAPI -- CRUD --> DB[(SQLite)]
+        FastAPI -- CRUD --> DB[(PostgreSQL)]
         FastAPI -- SOAP XML --> SOAP[External SOAP Service]
     end
     
@@ -60,7 +60,6 @@ Configure the database:
 2. Update `SQLALCHEMY_DATABASE_URL` with your PostgreSQL credentials:
    ```python
    # Format: postgresql://user:password@host/dbname
-   SQLALCHEMY_DATABASE_URL = "postgresql://postgres:su@localhost/SF_SGP"
    ```
 3. Ensure the database exists in PostgreSQL before running the app.
 
