@@ -69,7 +69,7 @@ function App() {
           <div style={{ padding: '0.5rem', backgroundColor: 'white', borderRadius: '12px', boxShadow: 'var(--shadow-sm)' }}>
             <Package size={32} color="var(--primary)" />
           </div>
-          <h1 style={{ margin: 0, textAlign: 'left' }}>FastAPI Store</h1>
+          <h1 style={{ margin: 0, textAlign: 'left' }}>Simple Store</h1>
         </div>
         <button
           onClick={handleCreateTestItem}
